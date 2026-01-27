@@ -1,0 +1,6 @@
+#include <stdio.h>
+
+int main() {
+    printf("%d %d",5,10);
+    return 0;
+}
