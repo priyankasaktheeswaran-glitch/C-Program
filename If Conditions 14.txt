@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main() {
+    int a=60,b=60,c=60;
+    if(a+b+c==180)
+        printf("Valid triangle");
+    else
+        printf("Invalid triangle");
+    return 0;
+}

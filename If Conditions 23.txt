@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int choice=1,a=10,b=20;
+    switch(choice) {
+        case 1: 
+            printf("Sum = %d", a+b); 
+            break;
+        case 2: 
+            printf("Difference = %d", a-b); 
+            break;
+        case 3: 
+            printf("Product = %d", a*b); 
+            break;
+    }
+    return 0;
+}
